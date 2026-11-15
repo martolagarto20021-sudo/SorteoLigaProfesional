@@ -7,7 +7,7 @@ Aplicación de consola para gestionar el sorteo de eliminación directa de un to
 
 ## Estructura del Código (MVC)
 El proyecto está organizado en los siguientes paquetes dentro de src/ups/poo/:
-- **modelo**: Contiene las clases Equipo, Partido, Torneo (con la lógica recursiva y serialización), y las excepciones `NumeroEquiposInvalidoException` y `SorteoInvalidoException`.
+- **modelo**: Contiene las clases Equipo, Partido, Torneo (con la lógica recursiva y serialización), y las excepciones NumeroEquiposInvalidoException y SorteoInvalidoException.
 - **vista**: Contiene la clase ConsolaVista encargada de la interacción con el usuario mediante la consola.
 - **controlador**: Contiene TorneoControlador, que maneja el flujo del menú y conecta el modelo con la vista.
 - **principal**: Contiene la clase Main para iniciar la aplicación.
